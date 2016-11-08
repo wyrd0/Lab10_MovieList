@@ -1,0 +1,9 @@
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\Lab_10\bin\Debug\Lab_10.exe.config
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\Lab_10\obj\Debug\Lab_10.csprojResolveAssemblyReference.cache
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\Lab_10\bin\Debug\Lab_10.exe
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\Lab_10\bin\Debug\Lab_10.pdb
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\Lab_10\obj\Debug\Lab_10.exe
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\Lab_10\obj\Debug\Lab_10.pdb
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\Lab_10\bin\Debug\Lab_10.exe.config
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\Lab_10\obj\Debug\Lab_10.exe
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\Lab_10\obj\Debug\Lab_10.pdb

@@ -10,13 +10,30 @@ namespace Lab_10
     {
         static void Main(string[] args)
         {
+            string proceed = "";
             Console.WriteLine("Welcome to MovieList!\n");
+            do
+            {   
             Console.WriteLine("There are 10 movies in this list. \nWhat category are you interested in?    ");
             string category = Console.ReadLine();
             string title = "";
             Movie movie = new Movie(title, category);
             List<Movie> MovieList = new List<Movie>();
-            
+            MovieList = PopulateMovieList(MovieList); 
+           
+            List<string> SearchList = new List<string>();
+            SearchList = movie.SearchByCategory(category, MovieList);
+            Console.WriteLine("Movies in category " + category + ":\n");
+            for (int i = 0; i < SearchList.Count; i++)
+            {
+                Console.WriteLine(SearchList.ElementAt(i));
+            }
+            Console.WriteLine("\nFind more movies? (y/n)  ");
+            proceed = (Console.ReadLine());
+            } while (proceed == "yes");
+        }
+        private static List<Movie> PopulateMovieList(List<Movie> MovieList)
+        {
             MovieList.Add(new Movie("Blade Runner", "scifi"));
             MovieList.Add(new Movie("Brazil", "scifi"));
             MovieList.Add(new Movie("Ghost in the Shell", "animated"));
@@ -27,27 +44,23 @@ namespace Lab_10
             MovieList.Add(new Movie("The Man Who Fell To Earth", "scifi"));
             MovieList.Add(new Movie("Shrek", "animated"));
             MovieList.Add(new Movie("Leon, the Professional", "drama"));
+            return MovieList;
+        }
 
-            List<string> SearchList = new List<string>();
-            SearchList = movie.SearchByCategory(category, MovieList);
-            Console.WriteLine("Movies in category " + category + ":\n");
-            for (int i = 0; i<SearchList.Count; i++)
+        private static string Proceed(string v)
+        {
+            string proceed = (v.ToLower().Trim());
+            if (proceed == "y" || proceed == "yes" || proceed == "sure" || proceed == "ok")
             {
-                Console.WriteLine(SearchList.ElementAt(i));
+                proceed = "yes";
             }
-            Console.WriteLine("\nFind more movies? (y/n)  ");
-            
-            //for (int i = 0; i < MovieList.Count; i++)
-            //{
-               
-            //    Console.WriteLine(MovieList[i].Title1 + MovieList[i].Category1);
-            //}
-
-
-           // List<string> result = Movie.SearchByCategory("scifi", MovieList);
-
-
-
+            else
+            {
+                Console.WriteLine("");
+                Console.WriteLine("Goodbye!");
+                Console.WriteLine("");
+            }
+            return proceed;
         }
     }
 }

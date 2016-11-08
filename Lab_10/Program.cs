@@ -28,8 +28,8 @@ namespace Lab_10
             {
                 Console.WriteLine(SearchList.ElementAt(i));
             }
-            Console.WriteLine("\nFind more movies? (y/n)  ");
-            proceed = (Console.ReadLine());
+            Console.Write("\nFind more movies? (y/n)  ");
+            proceed = Proceed(Console.ReadLine());
             } while (proceed == "yes");
         }
         private static List<Movie> PopulateMovieList(List<Movie> MovieList)
@@ -57,8 +57,7 @@ namespace Lab_10
             else
             {
                 Console.WriteLine("");
-                Console.WriteLine("Goodbye!");
-                Console.WriteLine("");
+                Console.WriteLine("\nGoodbye!\n");
             }
             return proceed;
         }

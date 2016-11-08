@@ -10,22 +10,11 @@ namespace Lab_10
     {
         static void Main(string[] args)
         {
-
-            
-
-            ////create ArrayList
-            //List<Movie> MovieList = new List<Movie>();
-            //string title, category;
-            //Console.Write("Enter Movie Title:   ");
-            //title = Console.ReadLine();
-            //Console.Write("Please enter the movie's category:   ");
-            //category = Console.ReadLine();
-            //MovieList.Add(new Movie(title, category));
-
             Console.WriteLine("Welcome to MovieList!\n");
             Console.WriteLine("There are 10 movies in this list. \nWhat category are you interested in?    ");
             string category = Console.ReadLine();
-
+            string title = "";
+            Movie movie = new Movie(title, category);
             List<Movie> MovieList = new List<Movie>();
             
             MovieList.Add(new Movie("Blade Runner", "scifi"));
@@ -39,6 +28,15 @@ namespace Lab_10
             MovieList.Add(new Movie("Shrek", "animated"));
             MovieList.Add(new Movie("Leon, the Professional", "drama"));
 
+            List<string> SearchList = new List<string>();
+            SearchList = movie.SearchByCategory(category, MovieList);
+            Console.WriteLine("Movies in category " + category + ":\n");
+            for (int i = 0; i<SearchList.Count; i++)
+            {
+                Console.WriteLine(SearchList.ElementAt(i));
+            }
+            Console.WriteLine("\nFind more movies? (y/n)  ");
+            
             //for (int i = 0; i < MovieList.Count; i++)
             //{
                

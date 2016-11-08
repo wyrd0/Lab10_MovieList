@@ -6,3 +6,11 @@ C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\movietest\bin
 C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\movietest\obj\Debug\movietest.csprojResolveAssemblyReference.cache
 C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\movietest\obj\Debug\movietest.dll
 C:\Users\mary\Documents\Visual Studio 2015\Projects\LAB_new\Lab_10\movietest\obj\Debug\movietest.pdb
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\movietest\bin\Debug\movietest.dll
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\movietest\bin\Debug\movietest.pdb
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\movietest\bin\Debug\Lab_10.exe
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\movietest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\movietest\bin\Debug\Lab_10.pdb
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\movietest\obj\Debug\movietest.csprojResolveAssemblyReference.cache
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\movietest\obj\Debug\movietest.dll
+C:\Users\mary\Documents\Visual Studio 2015\Projects\LaterLabs\Lab_10\movietest\obj\Debug\movietest.pdb

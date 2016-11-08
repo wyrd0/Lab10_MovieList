@@ -8,7 +8,7 @@ namespace Lab_10
 {
      public class Movie
 
-    {           //use hashtable
+    {         
 
         private string title;
         private string category;
@@ -40,11 +40,11 @@ namespace Lab_10
             }
         }
 
-      
+
 
         #endregion
 
-        //constructors
+        #region constructors
         public Movie(string titl, string cat)
         {
             Title = titl;               //! Start with global var (=Property)!
@@ -54,24 +54,21 @@ namespace Lab_10
         {
             Category = cat;
         }
-
+        #endregion
 
         public List<string> SearchByCategory(string cat, List<Movie> MovieList)
         {
             List<string> SearchList = new List<string>();
-            for (int i = 1; i <= MovieList.Count; i++)
+            for (int i = 0; i < MovieList.Count; i++)
             {
-                if (MovieList.ElementAt(i).Category == cat)
+                if (MovieList.ElementAt(i).Category == cat)         //another way to index a list
                 {
                     SearchList.Add(MovieList[i].Title);
                 }  
-                       
-           }
+             }
             return SearchList;
         }
-
-
-
+        
     }
         
     }

@@ -32,6 +32,17 @@ namespace Lab_10
             proceed = Proceed(Console.ReadLine());
             } while (proceed == "yes");
         }
+        public List<Movie> IndexCategory(List<Movie> MovieList)
+        {
+
+        }
+        public List<Movie> AddToList(string title, string category, List<Movie> MovieList)
+        {
+
+            return MovieList;
+
+        }
+
         private static List<Movie> PopulateMovieList(List<Movie> MovieList)
         {
             MovieList.Add(new Movie("Blade Runner", "scifi"));
